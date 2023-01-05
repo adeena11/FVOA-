@@ -1,0 +1,104 @@
+
+
+
+.form_container2{
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #554b4b;
+    width: 60%;
+    height: 70vh;
+    margin: auto;
+ 
+}
+  
+.role_label_creation{
+    margin-top: 7%;
+    margin-left: 17%;
+    font-weight: 600;
+    color: #1e5275;
+  }
+  #role_creation{
+    margin-top: 3%;
+    width: 31%;
+    height: 8vh;
+    margin-left: 30%;
+    border: 0;
+    border-bottom: 2px solid #1e5275;
+    background-color: #f7fcf9;
+    margin-bottom: 2%;
+  }
+.input_field{
+    margin-top: 4%;
+    border: 0;
+    background-color: #f7f7f7;
+    border-bottom: 2px  solid#0a334e;
+    width: 60%;
+    height: 20px;
+    margin-left: 10%;
+    background-color: white;
+}
+
+.title_form{
+    color:black ;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.addEmployee{
+    width: 79%;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #554b4b;
+    
+}
+
+.btn_sub{
+    
+    font-size: 18px;
+    width: 25%;
+    height: 7vh;
+    color: white;
+    background-color: #1fd37f;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px -2px #b6adad;
+  }
+  .btn_sub:hover{
+    color: #1e5275;
+   background-color: white;
+   border-radius: 0px;
+   border-bottom: 2px solid #1e5275;
+   box-shadow: 0 0 0 0;
+   transition: 0.3s;
+  }
+  .success{
+      background-color: white;
+      color: #1fd37f;
+      font-size: 30px;
+      padding: 20px;
+      width: 30%;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 2px 2px #5f8ba8;
+  }
+  .user-profile-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.user-profile-span{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+   align-items: center;
+   margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}

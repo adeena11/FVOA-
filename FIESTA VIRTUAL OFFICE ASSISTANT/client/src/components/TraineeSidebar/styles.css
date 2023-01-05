@@ -1,0 +1,31 @@
+.sidebar{
+    left: 0;
+    margin: 2%;
+    height: 80%;
+    width: 18%;
+    background-color: #f7fcf9;
+    box-shadow: 2px 3px 3px rgb(163, 163, 163);
+    border-radius: 10px;
+}
+.sidebar_element{
+    margin: 0;
+    height: 50px;
+    color: #1e5275;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 400;
+    padding-left: 5%;   
+    margin-top: 10px;
+    
+}
+.sidebar_text{
+    padding-left: 12%;  
+}
+.sidebar_element:hover{
+    height: 55px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+.video{
+   width: 75%;
+   height: 500px;
+   background-color: #f7f7f7;
+   border-radius: 10px;
+   text-align: center;
+   margin-top: 2%;
+   box-shadow: 0 0 15px -2px #747373;
+   margin-bottom: 15%;
+}
+.video_title{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.video_link{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}

@@ -1,0 +1,65 @@
+.empinfo_container{
+    color: #1e5275;
+     background-color: #f7f7f7;
+     border-radius: 4%;
+     box-shadow: 2px 3px 3px rgb(219, 219, 219);
+     width: 70%;
+     margin: auto;
+     margin-top: 2%;
+     box-shadow: 2px 1px 1px #c2bebe;
+ }
+ .employee_record{
+     background-color: white;
+     border-radius: 10px;
+     width: 85%;
+     margin: auto;
+     border: 1px solid white;
+     margin-bottom: 5%;
+     box-shadow: 0 0 15px -2px #747373;
+ }
+ .video_name{
+     margin-left: 5%;
+     font-size: 24px;
+     font-weight: 600;
+     color: rgb(8, 31, 65);
+ }
+ .video_description{
+    margin-left: 4%;
+     justify-content: space-around;
+     width: 100%;
+    margin-bottom: 2%;
+ }
+ .emp_detail_container{
+     display: flex;
+     width: 80%;
+     margin-bottom: 30%;
+ }
+ .emp_title{
+     justify-items: left;
+     width: 30%;
+     display: inline;
+     font-weight: 600;
+     font-size: 16px;
+     color: rgb(8, 31, 65);
+    
+ 
+ }
+
+ .watch_video_btn{
+     color: rgb(177, 6, 6);
+     margin-top: 5%;
+     border: 0px ;
+     border-radius: 0px;
+     background-color: white;
+     width:85%;
+     border-bottom: 2px solid rgb(177, 6, 6);
+     height: 50%;
+     
+    
+ }
+ .watch_video_btn:hover {
+    border-bottom: 2px solid #1e8558;
+     color: #1e8558;
+     transition: 0.4s;
+ }
+ 

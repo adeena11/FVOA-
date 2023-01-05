@@ -1,0 +1,7 @@
+.project_container{
+    width: 79%;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #554b4b;
+}

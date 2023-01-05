@@ -1,0 +1,24 @@
+.aboutus_title{
+    font-weight: bolder;
+   
+    margin-top: 5%;
+    padding-top: 5%;
+}
+.aboutus_description{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #554b4b;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+.aboutus_container{
+    background-color: #f7f7f7;
+    box-shadow: 0 0 19px -2px #554b4b;
+    width: 70%;
+    margin: auto;
+    height: 50vh;
+    border-radius: 15px;
+    
+}

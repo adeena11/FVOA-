@@ -1,0 +1,20 @@
+
+.add_notice_container{
+   background-color: #f7f7f7;
+   margin-top:  2%;
+   border-radius: 10px;
+   width: 70%;
+   
+}
+h1{
+   text-align: center;
+  
+}
+.newNoticeTitle{
+    margin-right: 5%;
+}
+.newNoticeDescription{
+   
+   margin-right: 5%;
+  
+}

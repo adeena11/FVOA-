@@ -1,0 +1,59 @@
+.noticeboard_main_container{
+    
+    background-color: #f7f7f7;
+    width: 75%;
+    height: 70vh;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #c2c0c0;
+}
+.btn_add_notice{
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 25%;
+}
+.btn_add_notice:hover {
+    transition: 0.6s;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom:  2px solid #1e5275;
+    background-color: #f7f7f7;
+    color: #1e5275;
+
+}
+.notice_title{
+    color: #1e5275;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 8%;
+    margin-bottom: 0%;
+
+}
+.notice{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #c2c0c0;
+}
+.notice_desc{
+    margin-left: 6%;
+    color: #1f2c35;
+    font-size: 18px;
+    font-weight: 500;
+}
+.delete_btn{
+    font-size: 18px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: white;
+    color: rgb(196, 4, 4);
+    font-weight: 700;
+}
+.notice_date{ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2%;
+    font-style: italic;
+}

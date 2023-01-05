@@ -1,0 +1,149 @@
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header_fixed {
+    margin: auto;
+    max-height: 60vh;
+    width: 95%;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: #1e5275;
+    color: white;
+    font-size: 16px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+td img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 5px solid #e6e7e8;
+}
+
+
+tr:hover td {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+
+
+
+.employee_list_container{
+   color: #1e5275;
+   background-color: white;
+   width: 79%;
+   height: 85vh;
+   margin-top: 1%;
+   border-radius: 10px;
+   box-shadow: 0 0 10px -2px #554b4b;
+   
+}
+.employee_record{
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    margin: auto;
+    border: 1px solid white;
+    margin-bottom: 5%;
+    box-shadow: 0 0 15px -2px #747373;
+}
+.emp_name{
+    
+    margin-left: 5%;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(8, 31, 65);
+}
+.emp_inf{
+    justify-content: space-around;
+    justify-items: left;
+    width: 100%;
+    padding-bottom: 1%;
+}
+.emp_detail_container{
+    display: flex;
+    width: 80%;
+    margin-bottom: 30%;
+}
+.emp_title{
+    justify-items: left;
+    width: 30%;
+    display: inline;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(8, 31, 65);
+   
+
+}
+.emp_btn{
+    color: red;
+    font-size: 20px;
+    padding-left: 4%;
+    border-radius: 0px;
+    background-color: white;
+}
+
+.emp_btn:hover{
+    color: rgb(141, 7, 7);
+    font-size: 20px;
+}
+.emp_profile_btn{
+    color: rgb(133, 112, 112);
+    margin-top: 5%;
+    border: 0px ;
+    border-radius: 0px;
+    background-color: transparent;
+    width:85%;
+    height: 50%;
+    
+   
+}
+.emp_profile_btn:hover {
+    color: #f5c527;
+    transition: 0.4s;
+}
+
+.btn_add_emp{
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 4vh;
+    font-size: 18px;
+    font-weight: 600;
+    width: 25%;
+    height: 7vh;
+    color: white;
+    background-color: #1fd37f;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px -2px #b6adad;
+}
+
+.btn_add_emp:hover{
+    
+    color: #1e5275;
+    background-color: white;
+    border-radius: 0px;
+    border-bottom: 2px solid #1e5275;
+    box-shadow: 0 0 0 0;
+    transition: 0.3s;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+App{
+  background: linear-gradient(120deg,#1e5275, #9bebbf);
+}
+html {
+  height: 100%;
+}
+body{ 
+  background: linear-gradient(120deg,#1e5275, #9bebbf);
+  Height: 100vh;
+  Width: 100%; 
+  Margin:0px;
+  Padding: 0pz;
+}
+
+.employeeLoginContainer{
+  background-color: #f2f2f2;
+  height: 60%;
+  display: flex;
+  box-shadow: 3px 4px #dbdbdb;
+}
+.employeeLogin{
+  margin-top: 20px;
+  margin-left: auto;
+  color: black;
+  background: #fbfbfb;
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 3px 4px #847aad;
+  border: 2px solid #1f0f57;
+}
+.imageContainer{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  border: 2px solid #25116A;
+  border-radius: 10px;
+  box-shadow: 3px 4px #847aad;
+}
+.submit_btn{
+  border-radius: 20px;
+  background-color: #2FE697;
+  box-shadow: 2px 3px #9BEBC8;
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: white;
+  position: relative;
+  float: none;
+  margin-left: 30px;
+}

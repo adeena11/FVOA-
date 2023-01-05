@@ -1,0 +1,117 @@
+.atm_paragraph{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 17%;
+    height: 5%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+.atm_container{
+    
+    width: 79%;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #554b4b;
+}
+.atm_header{
+    text-align: center; 
+    height: 5%;
+}
+.atm_button{
+    box-shadow: 0 0 10px -2px #cdced1;
+    height: 15vh;
+    width: 25%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #1e5275;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    
+}
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 5%;
+    font-size: 30px;
+  }
+  .on {
+    color: rgb(194, 146, 13);
+  }
+  .off {
+    color: #ccc;
+  }
+ .performance_container{
+    width: 79%;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #554b4b;
+    overflow-y: scroll;
+ }
+ .performance_form{
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 7px -2px #b6adad;
+ }
+ .star-rating{
+    text-align: center;
+ }
+ .submit_performance{
+    font-size: 18px;
+    width: 20%;
+    height: 5vh;
+    color: white;
+    background-color: #1fd37f;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px -2px #b6adad;
+ }
+ .submit_performance:hover{
+   color: #1e5275;
+   background-color: white;
+   border-radius: 0px;
+   border-bottom: 2px solid #1e5275;
+   box-shadow: 0 0 0 0;
+   transition: 0.3s;
+ }
+ .performance_title{
+    text-align: center;
+ }
+ .chart{
+  margin-left: 20%;
+  margin-top: 3%;
+   width: 80%;
+   height: 60%;
+ }
+ .reviews{
+   width: 100%;
+ }
+ .review_title{
+   margin: auto;
+   margin-bottom: 1%;
+   padding-bottom: 1%;
+    width: 80%;
+    border-bottom: 1px solid grey;
+ }
+ .review_container{
+     width: 75%;
+     margin: auto;
+     border-radius: 5px;
+     background-color: #fccfcf;
+ }
+ .review_comment{
+   font-size: 17px;
+   font-weight: 500;
+   margin-left: 10%;
+ }
+

@@ -1,0 +1,31 @@
+.task_container_main{
+    display: flex;
+    width: 79%;
+    height: 85vh;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #554b4b;
+}
+.task_button{
+    
+    font-size: 18px;
+    width: 60%;
+    height: 7vh;
+    color: white;
+    background-color: #1e5275cb;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px -2px #b6adad;
+}
+.task_button:hover{
+    color: #1e5275;
+    background-color: white;
+    border-radius: 0px;
+    border-bottom: 2px solid #1e5275;
+    box-shadow: 0 0 0 0;
+    transition: 0.3s;
+}
+.task_details{
+    margin-left: 3%;
+    width: 40%;
+}

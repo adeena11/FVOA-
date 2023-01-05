@@ -1,0 +1,49 @@
+.container{
+   
+    width: 100%;
+    height: 15% ; 
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #1e5275;
+    position: sticky;
+}
+.container_child{
+    display: inline;
+    width: 50%;
+}
+.username{
+    margin-left: 10%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1fd37f;
+    display: flex;
+}
+.icon{
+    margin-top: 2%;
+    font-size: 30px;
+}
+.name{
+    margin-left: 5%;
+}
+.logout{
+   width: 18%;
+   float: right;
+   margin-right: 2%;
+   margin-top: 1%;
+   margin-bottom: 3%;
+   height: 60%;
+   color: #1fd37f;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid gray;
+   border-radius: 10px;
+   font-size: 18px;
+  transition: 0.4s;
+}
+.logout:hover{
+   
+    font-size: 19px;
+    background-color: #3c6785;
+    color: #ffffff;
+    border: 0px solid gray;
+}

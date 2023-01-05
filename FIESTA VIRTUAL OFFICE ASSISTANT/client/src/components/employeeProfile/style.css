@@ -1,0 +1,31 @@
+.user-profile-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    padding: 3rem;
+}
+
+.user-profile-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.user-profile-span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+   align-items: center;
+   margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
